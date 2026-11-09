@@ -1,0 +1,23 @@
+{
+  "testedVersion": "codex-cli 0.164.0-alpha.11.1",
+  "transport": "stdio",
+  "experimentalApi": true,
+  "dynamicTools": "function specs with deferLoading:false; code_mode_host must remain enabled",
+  "nativeExecution": "Company runtime: shell_tool, unified_exec, native multi-agent, apps, and hooks disabled; native Companion sessions retain their own configuration",
+  "companion": {
+    "installation": "installed and trusted on this Windows installation; new installations require native review",
+    "cliCapture": "verified through a real read-only native CLI exec run with Scout delegation; interactive TUI not separately tested",
+    "ideCapture": "unverified",
+    "isolatedProof": "launcher, hook subprocess, collector and transcript fixtures",
+    "transcripts": "version-specific adapter; unsupported formats remain incomplete"
+  },
+  "verified": [
+    "authentication detection",
+    "inference",
+    "dynamic tool round trip",
+    "CEO delegation",
+    "scoped file write",
+    "automatic review",
+    "CEO result explanation"
+  ]
+}
